@@ -4,7 +4,11 @@ module Foundation
   module Social
     module Web
       module Icons
-        # Your code goes here...
+        def self.ipsum
+          "Lorem ipsum dolor sit amet, consectetur adipisicing ...."
+
+
+        end
       end
     end
   end

@@ -1,29 +1,30 @@
-# Foundation::Social::Web::Icons
+# Foundation Social Web Icons for Rails
 
-TODO: Write a gem description
+## How to Install 
 
-## Installation
+Add `foundation-social-web-icons` gem to the `assets` group in your `Gemfile`:
 
-Add this line to your application's Gemfile:
+    group :assets do
+      gem 'foundation-social-web-icons-rails'
+    end
 
-    gem 'foundation-social-web-icons'
 
-And then execute:
+Then in your `app/assets/stylesheets/application.css`:
 
-    $ bundle
+    @import 'foundation-social-web-icons';
 
-Or install it yourself as:
 
-    $ gem install foundation-social-web-icons
+Now, you can use it as follows:
 
-## Usage
+    <a href="#" class="svg fc-webicon facebook">Like us on Facebook</a>
+    <a href="#" class="svg fc-webicon facebook small">Like us on Facebook</a>
+    <a href="#" class="svg fc-webicon facebook">Like us on Facebook</a>
+    <a href="#" class="svg fc-webicon facebook large">Like us on Facebook</a>
 
-TODO: Write usage instructions here
 
-## Contributing
+## License
 
-1. Fork it ( http://github.com/<my-github-username>/foundation-social-web-icons/fork )
-2. Create your feature branch (`git checkout -b my-new-feature`)
-3. Commit your changes (`git commit -am 'Add some feature'`)
-4. Push to the branch (`git push origin my-new-feature`)
-5. Create new Pull Request
+[Foundation Social Web Icons](http://www.zurb.com/playground/social-webicons) is
+created by [ZURB](http://http://www.zurb.com/) and licensed under MIT. 
+
+Rest of the code is also under MIT.
