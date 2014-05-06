@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["kenny@dynawebworks.com"]
   spec.summary       = %q{This is the Rails SASS implementation of the Adam Fairhead Foundation Web Icons. http://usewebicons.com }
   spec.description   = %q{The other implementation of the web-icons, while nice, makes some structural changes to the way the web icons function that I was not happy with. Namely he drops the SVG files which is the entire point of having responsive scalable graphics with png *backups*. }
-  spec.homepage      = ""
+  spec.homepage      = "https://github.com/kimkong/foundation-social-web-icons-rails"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0")
@@ -20,4 +20,7 @@ Gem::Specification.new do |spec|
 
   spec.add_development_dependency "bundler", "~> 1.5"
   spec.add_development_dependency "rake"
+  spec.add_development_dependency "sass-rails"
+
+  spec.add_runtime_dependency 'sass', '~> 3.2'
 end

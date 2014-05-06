@@ -11,7 +11,7 @@ Add `foundation-social-web-icons` gem to the `assets` group in your `Gemfile`:
 
 Then in your `app/assets/stylesheets/application.css`:
 
-    @import 'foundation-social-web-icons';
+    @import 'fc-web-icons';
 
 
 Now, you can use it as follows:
