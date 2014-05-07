@@ -1,4 +1,4 @@
-require "foundation/social/web/icons/version"
+require "foundation/social/web/icons/rails/version"
 
 module Foundation
   module Social
