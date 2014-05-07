@@ -5,10 +5,7 @@ module Foundation
     module Web
       module Icons
         module Rails
-
-          def self.ipsum
-            "Lorem ipsum dolor sit amet, consectetur adipisicing ...."
-
+          class Engine < ::Rails::Engine
           end
         end
       end
